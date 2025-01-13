@@ -1,25 +1,48 @@
 .container-fluid   {
-    background-color:lightcoral
-    }
+    background-color:lightpink
+}
 html{
     background-color: lightpink;
-    }
-body{
+}
+header, section {
     background-color: lightpink;
-    }
-.navbar{
-    background-color: lightpink;
-    }
-.navbar-expand-lg{
-    background-color: lightpink;
-    }
-.navbar.bg-body-tertiary{
-    background-color: lightpink;
-    }
-.navbar-expand-lg{
-    background-color: lightpink;
-    }
-.bg-body-tertiary{
-    background-color: lightpink;
-    }
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+    background-color: lightcoral;
+}
     
+h1, h2 {
+    margin-top: 0;
+    color: darkred;
+}
+    
+p, ul {
+    color: #333;
+}
+    
+body {
+    margin: 0;
+    background-color: lightcoral;
+}
+    
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+footer {
+    background-color: lightpink;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: lightpink;
+    width: 100%
+}
